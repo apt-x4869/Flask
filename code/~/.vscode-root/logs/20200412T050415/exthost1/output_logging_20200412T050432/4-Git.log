@@ -1,0 +1,533 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /root/Flask
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/user.py
+> git ls-files --stage -- /root/Flask/code/resources/user.py
+> git cat-file -s 5fe0167c81428bfc7f642cf1b48c532e47c723d8
+> git show :code/blacklist.py
+> git ls-files --stage -- /root/Flask/code/blacklist.py
+> git cat-file -s ffeea14774108e7a7a20c4cd09bf4dc20cc6c724
+> git show :code/resources/user.py
+> git ls-files --stage -- /root/Flask/code/resources/user.py
+> git cat-file -s 5fe0167c81428bfc7f642cf1b48c532e47c723d8
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/models/item.py
+> git ls-files --stage -- /root/Flask/code/models/item.py
+> git cat-file -s bc4aeca1fc3f3c230a533a3311eeba4ada808031
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/models/item.py
+> git ls-files --stage -- /root/Flask/code/models/item.py
+> git cat-file -s bc4aeca1fc3f3c230a533a3311eeba4ada808031
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/models/book.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /root/Flask/code/models/book.py
+> git show :code/models/item.py
+> git ls-files --stage -- /root/Flask/code/models/item.py
+> git cat-file -s bc4aeca1fc3f3c230a533a3311eeba4ada808031
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/models/item.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /root/Flask/code/models/item.py
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/resources/item.py
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/app.py
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/models/book.py
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/resources/item.py
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/book.py
+> git ls-files --stage -- /root/Flask/code/models/book.py
+> git show :code/resources/book.py
+> git ls-files --stage -- /root/Flask/code/resources/book.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/app.py
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/models/user.py
+> git ls-files --stage -- /root/Flask/code/models/user.py
+> git cat-file -s 31a2d27b85add8263952d4983e3f4ca0c4fca655
+> git show :code/resources/user.py
+> git ls-files --stage -- /root/Flask/code/resources/user.py
+> git cat-file -s 5fe0167c81428bfc7f642cf1b48c532e47c723d8
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/resources/item.py
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Flask/code/data.db
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/item.py
+> git ls-files --stage -- /root/Flask/code/models/item.py
+> git cat-file -s bc4aeca1fc3f3c230a533a3311eeba4ada808031
+> git show :code/resources/item.py
+> git ls-files --stage -- /root/Flask/code/resources/item.py
+> git cat-file -s 363ba396eae86d17cd0657026ed57a34b2621f21
+> git show :code/models/user.py
+> git ls-files --stage -- /root/Flask/code/models/user.py
+> git cat-file -s 31a2d27b85add8263952d4983e3f4ca0c4fca655
+> git show :code/resources/user.py
+> git ls-files --stage -- /root/Flask/code/resources/user.py
+> git cat-file -s 5fe0167c81428bfc7f642cf1b48c532e47c723d8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :code/models/item.py
+> git ls-files --stage -- /root/Flask/code/models/item.py
+> git cat-file -s bc4aeca1fc3f3c230a533a3311eeba4ada808031
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/requirements.txt
+> git ls-files --stage -- /root/Flask/code/requirements.txt
+> git cat-file -s 36042559fed0719205c496d1010def7a4a7d771f
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/models/user.py
+> git ls-files --stage -- /root/Flask/code/models/user.py
+> git cat-file -s 31a2d27b85add8263952d4983e3f4ca0c4fca655
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/db.py
+> git ls-files --stage -- /root/Flask/code/db.py
+> git cat-file -s f0b13d6f2a9e2ae530f20551b37f3fe890ed8823
+> git show :code/app.py
+> git ls-files --stage -- /root/Flask/code/app.py
+> git cat-file -s 0dac5ba73d0eaac16c796a999a76a6fc51e47f1d
+> git show :code/models/user.py
+> git ls-files --stage -- /root/Flask/code/models/user.py
+> git cat-file -s 31a2d27b85add8263952d4983e3f4ca0c4fca655
+> git show :code/resources/user.py
+> git ls-files --stage -- /root/Flask/code/resources/user.py
+> git cat-file -s 5fe0167c81428bfc7f642cf1b48c532e47c723d8

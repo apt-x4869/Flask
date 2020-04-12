@@ -42,9 +42,10 @@ class Item(Resource):
     @jwt_required
     def delete(self, name):
         claims = get_jwt_claims()
+        ''' # Only admin can delete items
         if not claims['is_admin']:
             return {'message': 'Admin privilege required.'}, 401
-
+        '''
         item = ItemModel.find_by_name(name)
         if item:
             item.delete_from_db()

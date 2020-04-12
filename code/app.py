@@ -7,6 +7,7 @@ from blacklist import BLACKLIST
 from resources.user import UserRegister, User, UserLogin, TokenRefresh, UserLogout
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
+from resources.book import Book
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
@@ -48,7 +49,7 @@ def check_if_token_in_blacklist(decrypted_token):
 @jwt.expired_token_loader
 def expired_token_callback():
     return jsonify({
-        'message': 'The token has expired.',
+        'message': 'The token has expired. Please Login again',
         'error': 'token_expired'
     }), 401
 
@@ -93,7 +94,7 @@ api.add_resource(User, '/user/<int:user_id>')
 api.add_resource(UserLogin, '/login')
 api.add_resource(TokenRefresh, '/refresh')
 api.add_resource(UserLogout, '/logout')
-
+api.add_resource(Book, '/book/<string:title>')
 if __name__ == '__main__':
     db.init_app(app)
     app.run(port=5000, debug=True)
